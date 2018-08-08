@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
     values_arr.push(value)
     name_arr.push(name)
     
-    end
+    
   end
   name_arr
 end
