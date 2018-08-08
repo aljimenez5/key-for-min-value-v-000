@@ -9,5 +9,5 @@ def key_for_min_value(name_hash)
     values_arr << value && name_arr << name
     values_arr.delete_at(0) && name_arr.delete_at(0)
   end
-  name_hash.
+  name_hash.key(values_arr)
 end
