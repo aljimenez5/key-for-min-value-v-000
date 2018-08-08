@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
   end
   size_arr = values_arr.size
   until values_arr[0] < values_arr[size_arr] == true
+    values_arr.pop[0]
     
   end
   values_arr
