@@ -3,8 +3,7 @@
 
 def key_for_min_value(name_hash)
   values_arr = []
-  name_hash.collect do |name, value|
-    values_arr.push[name] unless > value
+  name_hash.collect do |name, value| { values_arr.push[name] unless values_arr[0] > value
     size_arr = values_arr.size
     
     
