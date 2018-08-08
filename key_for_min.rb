@@ -10,4 +10,5 @@ def key_for_min_value(name_hash)
   until values_arr[0] < values_arr[1..-1]
     values_arr.delete[1..-1]
   end
+  values_arr
 end
