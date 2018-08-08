@@ -10,5 +10,5 @@ def key_for_min_value(name_hash)
       name_arr.push(name)
     end
   end
-  values_arr
+  name_arr
 end
