@@ -8,7 +8,9 @@ def key_for_min_value(name_hash)
     next if values_arr[0] < value
     values_arr.push(value)
     name_arr.push(name)
-    
+    else
+      values_arr.replace(value)
+      name_arr.replace(name)
     
   end
   name_arr
