@@ -8,5 +8,6 @@ def key_for_min_value(name_hash)
     if names[0] < name[value[count + 1]] }
       return name
     count += 1
+    end
   end
 end
