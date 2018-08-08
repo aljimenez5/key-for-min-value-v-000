@@ -9,8 +9,8 @@ def key_for_min_value(name_hash)
     values_arr.push(value)
     name_arr.push(name)
     else
-      values_arr.replace(value)
-      name_arr.replace(name)
+      values_arr.delete(values_arr[0])
+      name_arr.delete(name_arr[0])
     end
   end
   name_arr
