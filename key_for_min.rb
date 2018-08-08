@@ -7,6 +7,7 @@ def key_for_min_value(name_hash)
     values_arr.push[value]
     size_arr = values_arr.size
     
+    
       values_arr.push[value]
     
     
