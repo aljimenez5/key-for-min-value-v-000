@@ -13,4 +13,5 @@ def key_for_min_value(name_hash)
       name_arr.replace(name)
     end
   name_arr
+  end
 end
