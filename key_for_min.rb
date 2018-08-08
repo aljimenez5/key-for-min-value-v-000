@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
     values_arr.push[value]
     until values_arr[0] < value
       values_arr.pop[0]
-    
+    end
   end
   values_arr
 end
