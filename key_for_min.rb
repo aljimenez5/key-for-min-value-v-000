@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   values_str = ""
   name_hash.collect do |name, value|     
     if value > name_hash[values_str[0]] 
-      values_arr = name
+      values_str = name
     end
   end
   values_str
