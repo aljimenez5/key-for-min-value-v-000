@@ -8,5 +8,4 @@ def key_for_min_value(name_hash)
     count += 1
   names 
   end
-  names
 end
